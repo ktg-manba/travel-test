@@ -5,8 +5,6 @@ import { getIsoTimestr } from "@/lib/time";
 import { getUserUuid } from "@/services/user";
 import { insertFeedback } from "@/models/feedback";
 
-export const runtime = "edge";
-
 export async function POST(req: Request) {
   try {
     let { content, rating } = await req.json();
