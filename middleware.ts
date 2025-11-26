@@ -1,12 +1,24 @@
 import createMiddleware from "next-intl/middleware";
 import { routing } from "./i18n/routing";
+import { NextRequest, NextResponse } from "next/server";
 
-export default createMiddleware(routing);
+const intlMiddleware = createMiddleware(routing);
+
+export default function middleware(request: NextRequest) {
+  try {
+    return intlMiddleware(request);
+  } catch (error) {
+    console.error("Middleware error:", error);
+    // Fallback: continue without i18n middleware
+    return NextResponse.next();
+  }
+}
 
 export const config = {
   matcher: [
-    "/",
-    "/(en|en-US|zh|zh-CN|zh-TW|zh-HK|zh-MO|ja|ko|ru|fr|de|ar|es|it)/:path*",
-    "/((?!privacy-policy|terms-of-service|api/|_next|_vercel|.*\\..*).*)",
+    // Match all pathnames except for
+    // - … if they start with `/api`, `/_next` or `/_vercel`
+    // - … the ones containing a dot (e.g. `favicon.ico`)
+    "/((?!api|_next|_vercel|.*\\..*).*)",
   ],
 };
