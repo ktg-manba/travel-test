@@ -1,0 +1,689 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "TravelTang",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "TravelTang"
+      },
+      "url": "/zh"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "功能特点",
+          "url": "/#feature",
+          "icon": "HiOutlineSparkles"
+        },
+        {
+          "title": "定价",
+          "url": "/#pricing",
+          "icon": "MdPayment"
+        },
+        {
+          "title": "旅游指南",
+          "url": "/traveltang",
+          "icon": "BiCube"
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "立即开始",
+        "url": "/#pricing",
+        "target": "_self",
+        "variant": "link",
+        "icon": "RiArrowRightUpLine"
+      }
+    ],
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "中国旅游终极指南",
+    "highlight_text": "TravelTang",
+    "description": "为国际游客提供全面的指南和AI驱动的旅游助手服务。<br/>获取支付设置指南、城市旅游攻略和24/7 AI旅游助手。",
+    "announcement": {
+      "label": "2025",
+      "title": "🎉 欢迎来到中国",
+      "url": "/#pricing"
+    },
+    "tip": "🎁 立即开始使用我们的旅游指南",
+    "buttons": [
+      {
+        "title": "立即开始",
+        "icon": "RiFlashlightFill",
+        "url": "/#pricing",
+        "target": "_self",
+        "variant": "default"
+      },
+      {
+        "title": "查看指南",
+        "icon": "RiBookOpenFill",
+        "url": "/traveltang",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ],
+    "show_happy_users": true,
+    "show_badge": false
+  },
+  "branding": {
+    "title": "TravelTang - 您值得信赖的旅游伙伴",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "什么是 TravelTang",
+    "label": "介绍",
+    "description": "TravelTang 是您在中国旅游的全面指南。我们为国际游客提供详细的PDF指南和AI驱动的旅游助手服务。",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "支付设置指南",
+        "description": "逐步指南，教您如何设置支付宝和微信支付，在中国轻松付款。",
+        "icon": "RiMoneyDollarCircleFill"
+      },
+      {
+        "title": "城市旅游攻略",
+        "description": "中国主要城市的全面旅游指南，包含景点、美食和实用贴士。",
+        "icon": "RiMapPinFill"
+      },
+      {
+        "title": "AI 旅游助手",
+        "description": "24/7 AI驱动的聊天机器人，即时回答您关于中国旅游的问题。",
+        "icon": "RiRobotFill"
+      }
+    ]
+  },
+  "benefit": {
+    "name": "benefit",
+    "title": "为什么选择 TravelTang",
+    "label": "优势",
+    "description": "在中国享受顺畅愉快旅行所需的一切 - 从支付设置到旅游规划。",
+    "items": [
+      {
+        "title": "轻松设置支付",
+        "description": "详细指南帮助您快速设置支付宝和微信支付，像本地人一样付款。",
+        "icon": "RiMoneyDollarCircleFill",
+        "image": {
+          "src": "/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "全面的城市指南",
+        "description": "通过我们的详细指南探索中国主要城市，涵盖景点、美食、交通等。",
+        "icon": "RiMapPinFill",
+        "image": {
+          "src": "/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "24/7 AI 助手",
+        "description": "随时随地通过我们的AI驱动旅游助手即时获得旅行问题的答案。",
+        "icon": "RiRobotFill",
+        "image": {
+          "src": "/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "title": "如何使用 TravelTang",
+    "description": "通过三个简单步骤开始您的中国旅游冒险：",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "image_position": "left",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "选择您的套餐",
+        "description": "选择适合您旅游需求的套餐 - PDF指南、AI助手访问，或两者兼得。",
+        "image": {
+          "src": "/imgs/features/5.png"
+        }
+      },
+      {
+        "title": "下载 PDF 指南",
+        "description": "立即获取支付设置指南和全面的城市旅游攻略。",
+        "image": {
+          "src": "/imgs/features/6.png"
+        }
+      },
+      {
+        "title": "咨询 AI 助手",
+        "description": "随时与我们的AI旅游助手聊天，即时获得旅行问题的答案。",
+        "image": {
+          "src": "/imgs/features/7.png"
+        }
+      },
+      {
+        "title": "享受您的旅程",
+        "description": "在我们的指南和AI助手的陪伴下，自信地在中国旅行。",
+        "image": {
+          "src": "/imgs/features/8.png"
+        }
+      }
+    ]
+  },
+  "feature": {
+    "name": "feature",
+    "title": "TravelTang 核心功能",
+    "description": "在中国享受顺畅愉快旅行所需的一切。",
+    "items": [
+      {
+        "title": "支付设置指南",
+        "description": "详细的PDF指南，逐步教您设置支付宝和微信支付。",
+        "icon": "RiMoneyDollarCircleFill"
+      },
+      {
+        "title": "城市旅游攻略",
+        "description": "北京、上海、西安等主要城市的全面指南。",
+        "icon": "RiMapPinFill"
+      },
+      {
+        "title": "AI 旅游助手",
+        "description": "24/7 AI聊天机器人，即时回答您关于中国旅游的问题。",
+        "icon": "RiRobotFill"
+      },
+      {
+        "title": "离线访问",
+        "description": "下载PDF指南，随时随地离线访问。",
+        "icon": "RiDownloadFill"
+      },
+      {
+        "title": "多语言支持",
+        "description": "提供英文和中文版本，服务来自世界各地的游客。",
+        "icon": "RiGlobalFill"
+      },
+      {
+        "title": "定期更新",
+        "description": "我们的指南定期更新最新信息和旅游贴士。",
+        "icon": "RiRefreshFill"
+      }
+    ]
+  },
+  "showcase": {
+    "name": "showcase",
+    "title": "中国热门旅游目的地",
+    "description": "使用 TravelTang 指南探索精彩城市。",
+    "items": [
+      {
+        "title": "ThinkAny",
+        "description": "AI 搜索引擎",
+        "url": "https://thinkany.ai",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "HeyBeauty",
+        "description": "AI 虚拟试妆",
+        "url": "https://heybeauty.ai",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "AI Wallpaper",
+        "description": "AI 壁纸生成器",
+        "url": "https://aiwallpaper.shop",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "AI Cover",
+        "description": "AI 封面生成器",
+        "url": "https://aicover.design",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "GPTs Works",
+        "description": "GPTs 目录",
+        "url": "https://gpts.works",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "Melodisco",
+        "description": "AI 音乐播放器",
+        "url": "https://melodis.co",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "Pagen",
+        "description": "AI 落地页生成器",
+        "url": "https://pagen.so",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "SoraFM",
+        "description": "AI 视频生成器",
+        "url": "https://sorafm.trys.ai",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/8.png"
+        }
+      },
+      {
+        "title": "PodLM",
+        "description": "AI 播客生成器",
+        "url": "https://podlm.ai",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/9.png"
+        }
+      }
+    ]
+  },
+  "stats": {
+    "name": "stats",
+    "label": "统计",
+    "title": "游客喜爱 TravelTang",
+    "description": "因为它让中国旅行变得轻松愉快。",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "信任",
+        "label": "99+",
+        "description": "客户"
+      },
+      {
+        "title": "内置",
+        "label": "20+",
+        "description": "组件"
+      },
+      {
+        "title": "快速发布",
+        "label": "5",
+        "description": "分钟"
+      }
+    ]
+  },
+  "pricing": {
+    "name": "pricing",
+    "label": "定价",
+    "title": "定价",
+    "description": "选择适合您中国旅游冒险的完美套餐。",
+    "groups": [],
+    "items": [
+      {
+        "title": "PDF 指南套装",
+        "description": "获取支付设置指南和城市旅游攻略。",
+        "features_title": "包含",
+        "features": [
+          "支付设置指南（PDF）",
+          "城市旅游攻略（PDF）",
+          "20 积分用于 AI 助手",
+          "有效期 3 个月",
+          "离线访问",
+          "定期更新"
+        ],
+        "interval": "one-time",
+        "amount": 1999,
+        "cn_amount": 14900,
+        "currency": "USD",
+        "price": "$19.99",
+        "original_price": "$29.99",
+        "unit": "USD",
+        "is_featured": false,
+        "tip": "首次访客的完美选择！",
+        "button": {
+          "title": "获取指南",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pdf_bundle",
+        "product_name": "TravelTang PDF 指南套装",
+        "credits": 20,
+        "valid_months": 3
+      },
+      {
+        "title": "AI 助手访问",
+        "description": "无限访问AI驱动的旅游助手。",
+        "label": "热门",
+        "features_title": "包含",
+        "features": [
+          "无限 AI 聊天消息",
+          "24/7 旅游助手",
+          "支付设置指南（PDF）",
+          "城市旅游攻略（PDF）",
+          "有效期 1 个月",
+          "优先支持"
+        ],
+        "interval": "one-time",
+        "amount": 2999,
+        "cn_amount": 21900,
+        "currency": "USD",
+        "price": "$29.99",
+        "original_price": "$39.99",
+        "unit": "USD",
+        "is_featured": true,
+        "tip": "活跃旅行者的最佳选择！",
+        "button": {
+          "title": "获取访问",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "chatbot_access",
+        "product_name": "TravelTang AI 助手访问",
+        "credits": 100,
+        "valid_months": 1
+      },
+      {
+        "title": "高级套餐",
+        "description": "您需要的一切：PDF指南 + 无限AI助手访问。",
+        "features_title": "包含所有功能，另加",
+        "features": [
+          "所有 PDF 指南",
+          "无限 AI 聊天消息",
+          "优先支持",
+          "新指南抢先体验",
+          "有效期 1 年",
+          "定期内容更新"
+        ],
+        "interval": "one-time",
+        "amount": 4999,
+        "cn_amount": 35900,
+        "currency": "USD",
+        "price": "$49.99",
+        "original_price": "$69.99",
+        "unit": "USD",
+        "is_featured": false,
+        "tip": "完整的旅游解决方案！",
+        "button": {
+          "title": "获取高级版",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium",
+        "product_name": "TravelTang 高级套餐",
+        "credits": 200,
+        "valid_months": 12
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "用户评价",
+    "title": "游客如何评价 TravelTang",
+    "description": "听听使用 TravelTang 进行中国旅游的国际游客怎么说。",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "莎拉·约翰逊",
+        "label": "来自美国的首次访客",
+        "description": "TravelTang 的支付设置指南真是救星！我几分钟就设置好了支付宝，到处都能付款。城市指南帮我发现了许多我可能会错过的好地方。",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "迈克尔·陈",
+        "label": "来自英国的商务旅行者",
+        "description": "AI助手即时回答了我所有的问题，即使在凌晨2点！就像口袋里有个本地向导。物超所值。",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "艾玛·威廉姆斯",
+        "label": "来自澳大利亚的独自旅行者",
+        "description": "作为独自旅行的女性，有了 TravelTang 我感到更加自信。指南涵盖了从交通到安全提示的一切。强烈推荐！",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "大卫·金",
+        "label": "来自加拿大的家庭旅行者",
+        "description": "带孩子在中国旅行可能很有挑战性，但 TravelTang 的指南让一切变得容易多了。我们找到了适合家庭的餐厅和活动，这些我们以前根本不知道。",
+        "image": {
+          "src": "/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "丽莎·安德森",
+        "label": "来自德国的学生",
+        "description": "PDF指南非常适合离线访问。我在旅行前下载了它们，即使没有网络也能参考。AI助手帮助我像专业人士一样导航地铁系统！",
+        "image": {
+          "src": "/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "罗伯特·泰勒",
+        "label": "来自新西兰的冒险旅行者",
+        "description": "TravelTang 帮助我探索了旅游陷阱之外的地方。城市指南向我展示了真实的本地体验，AI助手给了我关于天气和当地习俗的实时建议。",
+        "image": {
+          "src": "/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "常见问题",
+    "title": "关于 TravelTang 的常见问题",
+    "description": "还有其他问题？通过电子邮件联系我们或使用我们的AI助手。",
+    "items": [
+      {
+        "title": "TravelTang 是什么，它如何帮助我？",
+        "description": "TravelTang 是为来华国际游客提供的全面旅游指南服务。我们提供详细的PDF指南（支付设置和城市旅游），以及24/7 AI驱动的旅游助手，即时回答您的问题。"
+      },
+      {
+        "title": "使用 TravelTang 需要会说中文吗？",
+        "description": "完全不需要！TravelTang 专为国际游客设计。我们的指南提供英文和中文版本，AI助手可以用多种语言交流，帮助您自信地在中国旅行。"
+      },
+      {
+        "title": "指南中涵盖哪些支付方式？",
+        "description": "我们的支付设置指南涵盖支付宝和微信支付，这是中国最流行的两种移动支付方式。我们提供逐步说明，帮助您作为国际游客设置和使用这些支付方式。"
+      },
+      {
+        "title": "旅游指南的准确性和时效性如何？",
+        "description": "我们的指南定期更新最新的景点、餐厅、交通和旅游贴士信息。我们监控中国旅游环境的变化，并相应地更新内容以确保准确性。"
+      },
+      {
+        "title": "我可以离线使用AI助手吗？",
+        "description": "AI助手需要互联网连接才能工作。但是，我们的PDF指南可以下载并离线访问，因此您可以在旅途中随时随地参考它们。"
+      },
+      {
+        "title": "旅游指南涵盖哪些城市？",
+        "description": "我们的城市指南目前涵盖主要旅游目的地，包括北京、上海、西安等。我们根据游客需求不断添加新城市。请查看我们的指南页面了解完整列表。"
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "开始您的中国旅游冒险",
+    "description": "立即获取您的旅游指南和AI助手。",
+    "buttons": [
+      {
+        "title": "立即开始",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      },
+      {
+        "title": "查看指南",
+        "url": "/traveltang",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "TravelTang",
+      "description": "中国旅游终极指南。为国际游客提供全面的指南和AI驱动的旅游助手服务。",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "TravelTang"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2025 • TravelTang 保留所有权利。",
+    "nav": {
+      "items": [
+        {
+          "title": "关于",
+          "children": [
+            {
+              "title": "功能特点",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "案例展示",
+              "url": "/#showcase",
+              "target": "_self"
+            },
+            {
+              "title": "定价",
+              "url": "/#pricing",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "资源",
+          "children": [
+            {
+              "title": "文档",
+              "url": "https://docs.shipany.ai",
+              "target": "_blank"
+            },
+            {
+              "title": "组件",
+              "url": "https://shipany.ai/components",
+              "target": "_blank"
+            },
+            {
+              "title": "模板",
+              "url": "https://shipany.ai/templates",
+              "target": "_blank"
+            }
+          ]
+        },
+        {
+          "title": "友情链接",
+          "children": [
+            {
+              "title": "ThinkAny",
+              "url": "https://thinkany.ai",
+              "target": "_blank"
+            },
+            {
+              "title": "HeyBeauty",
+              "url": "https://heybeauty.ai",
+              "target": "_blank"
+            },
+            {
+              "title": "Pagen",
+              "url": "https://pagen.so",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/shipanyai",
+          "target": "_blank"
+        },
+        {
+          "title": "Github",
+          "icon": "RiGithubFill",
+          "url": "https://github.com/shipanyai",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "icon": "RiDiscordFill",
+          "url": "https://discord.gg/HQNnrzjZQS",
+          "target": "_blank"
+        },
+        {
+          "title": "邮箱",
+          "icon": "RiMailLine",
+          "url": "mailto:support@shipany.ai",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "隐私政策",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "服务条款",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  }
+}

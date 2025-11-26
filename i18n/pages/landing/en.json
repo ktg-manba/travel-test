@@ -1,0 +1,689 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "TravelTang",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "TravelTang"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Features",
+          "url": "/#feature",
+          "icon": "HiOutlineSparkles"
+        },
+        {
+          "title": "Pricing",
+          "url": "/#pricing",
+          "icon": "MdPayment"
+        },
+        {
+          "title": "Travel Guides",
+          "url": "/traveltang",
+          "icon": "BiCube"
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "Get Started",
+        "url": "/#pricing",
+        "target": "_self",
+        "variant": "link",
+        "icon": "RiArrowRightUpLine"
+      }
+    ],
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "Your Ultimate Guide to Traveling in China",
+    "highlight_text": "TravelTang",
+    "description": "Comprehensive guides and AI-powered assistance for international travelers.<br/>Get payment setup guides, city travel guides, and 24/7 AI travel assistant.",
+    "announcement": {
+      "label": "2025",
+      "title": "🎉 Welcome to China",
+      "url": "/#pricing"
+    },
+    "tip": "🎁 Get started with our travel guides",
+    "buttons": [
+      {
+        "title": "Get Started",
+        "icon": "RiFlashlightFill",
+        "url": "/#pricing",
+        "target": "_self",
+        "variant": "default"
+      },
+      {
+        "title": "View Guides",
+        "icon": "RiBookOpenFill",
+        "url": "/traveltang",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ],
+    "show_happy_users": true,
+    "show_badge": false
+  },
+  "branding": {
+    "title": "TravelTang - Your Trusted Travel Companion",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "What is TravelTang",
+    "label": "Introduce",
+    "description": "TravelTang is your comprehensive guide to traveling in China. We provide detailed PDF guides and AI-powered travel assistance for international visitors.",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "Payment Setup Guides",
+        "description": "Step-by-step guides to set up Alipay and WeChat Pay for seamless payments in China.",
+        "icon": "RiMoneyDollarCircleFill"
+      },
+      {
+        "title": "City Travel Guides",
+        "description": "Comprehensive travel guides for major Chinese cities with attractions, food, and tips.",
+        "icon": "RiMapPinFill"
+      },
+      {
+        "title": "AI Travel Assistant",
+        "description": "24/7 AI-powered chatbot to answer your questions about traveling in China.",
+        "icon": "RiRobotFill"
+      }
+    ]
+  },
+  "benefit": {
+    "name": "benefit",
+    "title": "Why Choose TravelTang",
+    "label": "Benefits",
+    "description": "Everything you need for a smooth and enjoyable trip to China - from payment setup to travel planning.",
+    "items": [
+      {
+        "title": "Easy Payment Setup",
+        "description": "Detailed guides to help you set up Alipay and WeChat Pay quickly, so you can pay like a local.",
+        "icon": "RiMoneyDollarCircleFill",
+        "image": {
+          "src": "/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "Comprehensive City Guides",
+        "description": "Explore major Chinese cities with our detailed guides covering attractions, food, transportation, and more.",
+        "icon": "RiMapPinFill",
+        "image": {
+          "src": "/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "24/7 AI Assistant",
+        "description": "Get instant answers to your travel questions anytime, anywhere with our AI-powered travel assistant.",
+        "icon": "RiRobotFill",
+        "image": {
+          "src": "/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "title": "How to Use TravelTang",
+    "description": "Get started with your China travel adventure in three simple steps:",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "image_position": "left",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "Choose Your Plan",
+        "description": "Select a plan that fits your travel needs - PDF guides, AI assistant access, or both.",
+        "image": {
+          "src": "/imgs/features/5.png"
+        }
+      },
+      {
+        "title": "Download PDF Guides",
+        "description": "Get instant access to payment setup guides and comprehensive city travel guides.",
+        "image": {
+          "src": "/imgs/features/6.png"
+        }
+      },
+      {
+        "title": "Ask AI Assistant",
+        "description": "Chat with our AI travel assistant anytime for instant answers to your travel questions.",
+        "image": {
+          "src": "/imgs/features/7.png"
+        }
+      },
+      {
+        "title": "Enjoy Your Trip",
+        "description": "Travel confidently in China with our guides and AI assistant by your side.",
+        "image": {
+          "src": "/imgs/features/8.png"
+        }
+      }
+    ]
+  },
+  "feature": {
+    "name": "feature",
+    "title": "Key Features of TravelTang",
+    "description": "Everything you need for a smooth and enjoyable trip to China.",
+    "items": [
+      {
+        "title": "Payment Setup Guides",
+        "description": "Detailed PDF guides to set up Alipay and WeChat Pay step by step.",
+        "icon": "RiMoneyDollarCircleFill"
+      },
+      {
+        "title": "City Travel Guides",
+        "description": "Comprehensive guides for Beijing, Shanghai, Xi'an and more major cities.",
+        "icon": "RiMapPinFill"
+      },
+      {
+        "title": "AI Travel Assistant",
+        "description": "24/7 AI chatbot to answer your questions about China travel instantly.",
+        "icon": "RiRobotFill"
+      },
+      {
+        "title": "Offline Access",
+        "description": "Download PDF guides and access them offline anytime, anywhere.",
+        "icon": "RiDownloadFill"
+      },
+      {
+        "title": "Multilingual Support",
+        "description": "Available in English and Chinese to serve travelers from around the world.",
+        "icon": "RiGlobalFill"
+      },
+      {
+        "title": "Regular Updates",
+        "description": "Our guides are regularly updated with the latest information and travel tips.",
+        "icon": "RiRefreshFill"
+      }
+    ]
+  },
+  "showcase": {
+    "name": "showcase",
+    "title": "Popular Destinations in China",
+    "description": "Explore amazing cities with TravelTang guides.",
+    "items": [
+      {
+        "title": "ThinkAny",
+        "description": "AI Search Engine",
+        "url": "https://thinkany.ai",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "HeyBeauty",
+        "description": "AI Virtual Try On",
+        "url": "https://heybeauty.ai",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "AI Wallpaper",
+        "description": "AI Wallpaper Generator",
+        "url": "https://aiwallpaper.shop",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "AI Cover",
+        "description": "AI Cover Generator",
+        "url": "https://aicover.design",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "GPTs Works",
+        "description": "GPTs Directory",
+        "url": "https://gpts.works",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "Melodisco",
+        "description": "AI Music Player",
+        "url": "https://melodis.co",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "Pagen",
+        "description": "AI Landing Page Generator",
+        "url": "https://pagen.so",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "SoraFM",
+        "description": "AI Video Generator",
+        "url": "https://sorafm.trys.ai",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/8.png"
+        }
+      },
+      {
+        "title": "PodLM",
+        "description": "AI Podcast Generator",
+        "url": "https://podlm.ai",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/9.png"
+        }
+      }
+    ]
+  },
+  "stats": {
+    "name": "stats",
+    "label": "Stats",
+    "title": "Travelers Love TravelTang",
+    "description": "for making China travel easy and enjoyable.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "Trusted by",
+        "label": "99+",
+        "description": "Customers"
+      },
+      {
+        "title": "Built in",
+        "label": "20+",
+        "description": "Components"
+      },
+      {
+        "title": "Ship Fast in",
+        "label": "5",
+        "description": "Minutes"
+      }
+    ]
+  },
+  "pricing": {
+    "name": "pricing",
+    "label": "Pricing",
+    "title": "Pricing",
+    "description": "Choose the perfect plan for your China travel adventure.",
+    "groups": [],
+    "items": [
+      {
+        "title": "PDF Guides Bundle",
+        "description": "Get both payment setup guide and city travel guides.",
+        "features_title": "Includes",
+        "features": [
+          "Payment Setup Guide (PDF)",
+          "City Travel Guides (PDF)",
+          "20 credits for AI assistant",
+          "Valid for 3 months",
+          "Offline access",
+          "Regular updates"
+        ],
+        "interval": "one-time",
+        "amount": 1999,
+        "cn_amount": 14900,
+        "currency": "USD",
+        "price": "$19.99",
+        "original_price": "$29.99",
+        "unit": "USD",
+        "is_featured": false,
+        "tip": "Perfect for first-time visitors!",
+        "button": {
+          "title": "Get Guides",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pdf_bundle",
+        "product_name": "TravelTang PDF Guides Bundle",
+        "credits": 20,
+        "valid_months": 3
+      },
+      {
+        "title": "AI Assistant Access",
+        "description": "Unlimited access to AI-powered travel assistance.",
+        "label": "Popular",
+        "features_title": "Includes",
+        "features": [
+          "Unlimited AI chat messages",
+          "24/7 travel assistance",
+          "Payment Setup Guide (PDF)",
+          "City Travel Guides (PDF)",
+          "Valid for 1 month",
+          "Priority support"
+        ],
+        "interval": "one-time",
+        "amount": 2999,
+        "cn_amount": 21900,
+        "currency": "USD",
+        "price": "$29.99",
+        "original_price": "$39.99",
+        "unit": "USD",
+        "is_featured": true,
+        "tip": "Best for active travelers!",
+        "button": {
+          "title": "Get Access",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "chatbot_access",
+        "product_name": "TravelTang AI Assistant Access",
+        "credits": 100,
+        "valid_months": 1
+      },
+      {
+        "title": "Premium Package",
+        "description": "Everything you need: PDF guides + unlimited AI assistant access.",
+        "features_title": "Everything included, plus",
+        "features": [
+          "All PDF guides",
+          "Unlimited AI chat messages",
+          "Priority support",
+          "Early access to new guides",
+          "Valid for 1 year",
+          "Regular content updates"
+        ],
+        "interval": "one-time",
+        "amount": 4999,
+        "cn_amount": 35900,
+        "currency": "USD",
+        "price": "$49.99",
+        "original_price": "$69.99",
+        "unit": "USD",
+        "is_featured": false,
+        "tip": "Complete travel solution!",
+        "button": {
+          "title": "Get Premium",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium",
+        "product_name": "TravelTang Premium Package",
+        "credits": 200,
+        "valid_months": 12
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "Testimonial",
+    "title": "What Travelers Say About TravelTang",
+    "description": "Hear from international travelers who used TravelTang for their China adventures.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Sarah Johnson",
+        "label": "First-time Visitor from USA",
+        "description": "TravelTang's payment setup guide was a lifesaver! I set up Alipay in minutes and could pay everywhere. The city guides helped me discover amazing places I would have missed.",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Michael Chen",
+        "label": "Business Traveler from UK",
+        "description": "The AI assistant answered all my questions instantly, even at 2 AM! It's like having a local guide in my pocket. Worth every penny.",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Emma Williams",
+        "label": "Solo Traveler from Australia",
+        "description": "As a solo female traveler, I felt so much more confident with TravelTang. The guides covered everything from transportation to safety tips. Highly recommend!",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "David Kim",
+        "label": "Family Traveler from Canada",
+        "description": "Traveling with kids in China can be challenging, but TravelTang's guides made it so much easier. We found family-friendly restaurants and activities we never would have known about.",
+        "image": {
+          "src": "/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "Lisa Anderson",
+        "label": "Student from Germany",
+        "description": "The PDF guides are perfect for offline access. I downloaded them before my trip and could reference them even without internet. The AI assistant helped me navigate the subway system like a pro!",
+        "image": {
+          "src": "/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "Robert Taylor",
+        "label": "Adventure Traveler from New Zealand",
+        "description": "TravelTang helped me explore beyond the tourist traps. The city guides showed me authentic local experiences, and the AI assistant gave me real-time advice on weather and local customs.",
+        "image": {
+          "src": "/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "FAQ",
+    "title": "Frequently Asked Questions About TravelTang",
+    "description": "Have another question? Contact us by email or use our AI assistant.",
+    "items": [
+      {
+        "title": "What is TravelTang and how can it help me?",
+        "description": "TravelTang is a comprehensive travel guide service for international visitors to China. We provide detailed PDF guides for payment setup and city travel, plus a 24/7 AI-powered travel assistant to answer your questions instantly."
+      },
+      {
+        "title": "Do I need to speak Chinese to use TravelTang?",
+        "description": "Not at all! TravelTang is designed for international travelers. Our guides are available in English and Chinese, and our AI assistant can communicate in multiple languages to help you navigate China with confidence."
+      },
+      {
+        "title": "What payment methods are covered in the guides?",
+        "description": "Our payment setup guide covers both Alipay and WeChat Pay, the two most popular mobile payment methods in China. We provide step-by-step instructions to help you set up and use these payment methods as an international visitor."
+      },
+      {
+        "title": "How accurate and up-to-date are the travel guides?",
+        "description": "Our guides are regularly updated with the latest information about attractions, restaurants, transportation, and travel tips. We monitor changes in China's travel landscape and update our content accordingly to ensure accuracy."
+      },
+      {
+        "title": "Can I use the AI assistant offline?",
+        "description": "The AI assistant requires an internet connection to function. However, our PDF guides can be downloaded and accessed offline, so you can reference them anytime, anywhere during your trip."
+      },
+      {
+        "title": "What cities are covered in the travel guides?",
+        "description": "Our city guides currently cover major tourist destinations including Beijing, Shanghai, Xi'an, and more. We're constantly adding new cities based on traveler demand. Check our guides page for the complete list."
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "Start Your China Travel Adventure",
+    "description": "Get your travel guides and AI assistant today.",
+    "buttons": [
+      {
+        "title": "Get Started",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      },
+      {
+        "title": "View Guides",
+        "url": "/traveltang",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "TravelTang",
+      "description": "Your Ultimate Guide to Traveling in China. Comprehensive guides and AI-powered assistance for international travelers.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "TravelTang"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2025 • TravelTang All rights reserved.",
+    "nav": {
+      "items": [
+        {
+          "title": "About",
+          "children": [
+            {
+              "title": "Features",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "Showcases",
+              "url": "/#showcase",
+              "target": "_self"
+            },
+            {
+              "title": "Pricing",
+              "url": "/#pricing",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Resources",
+          "children": [
+            {
+              "title": "Documents",
+              "url": "https://docs.shipany.ai",
+              "target": "_blank"
+            },
+            {
+              "title": "Components",
+              "url": "https://shipany.ai/components",
+              "target": "_blank"
+            },
+            {
+              "title": "Templates",
+              "url": "https://shipany.ai/templates",
+              "target": "_blank"
+            }
+          ]
+        },
+        {
+          "title": "Friends",
+          "children": [
+            {
+              "title": "ThinkAny",
+              "url": "https://thinkany.ai",
+              "target": "_blank"
+            },
+            {
+              "title": "HeyBeauty",
+              "url": "https://heybeauty.ai",
+              "target": "_blank"
+            },
+            {
+              "title": "Pagen",
+              "url": "https://pagen.so",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/shipanyai",
+          "target": "_blank"
+        },
+        {
+          "title": "Github",
+          "icon": "RiGithubFill",
+          "url": "https://github.com/shipanyai",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "icon": "RiDiscordFill",
+          "url": "https://discord.gg/HQNnrzjZQS",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "icon": "RiMailLine",
+          "url": "mailto:support@shipany.ai",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  }
+}
