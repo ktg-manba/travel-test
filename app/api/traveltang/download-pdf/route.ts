@@ -35,49 +35,49 @@ async function generatePaymentGuidePDF(): Promise<Buffer> {
     // Alipay Section
     doc.fontSize(16).text("Setting Up Alipay", { underline: true });
     doc.moveDown(0.5);
-    doc.fontSize(12).text("Step 1: Download the Alipay App", { bold: true });
-    doc.fontSize(11).text("• Search for 'Alipay' in your app store");
+    doc.font('Helvetica-Bold').fontSize(12).text("Step 1: Download the Alipay App");
+    doc.font('Helvetica').fontSize(11).text("• Search for 'Alipay' in your app store");
     doc.fontSize(11).text("• Download and install the official Alipay app");
     doc.moveDown(0.5);
 
-    doc.fontSize(12).text("Step 2: Register Your Account", { bold: true });
-    doc.fontSize(11).text("• Open the app and tap 'Sign Up'");
+    doc.font('Helvetica-Bold').fontSize(12).text("Step 2: Register Your Account");
+    doc.font('Helvetica').fontSize(11).text("• Open the app and tap 'Sign Up'");
     doc.fontSize(11).text("• Enter your mobile phone number (international numbers are supported)");
     doc.fontSize(11).text("• Verify your phone number with the SMS code");
     doc.moveDown(0.5);
 
-    doc.fontSize(12).text("Step 3: Link Your Card", { bold: true });
-    doc.fontSize(11).text("• Go to 'Me' > 'Bank Cards'");
+    doc.font('Helvetica-Bold').fontSize(12).text("Step 3: Link Your Card");
+    doc.font('Helvetica').fontSize(11).text("• Go to 'Me' > 'Bank Cards'");
     doc.fontSize(11).text("• Tap 'Add Card' and enter your card details");
     doc.fontSize(11).text("• Supported cards: Visa, Mastercard, and some international cards");
     doc.moveDown(0.5);
 
-    doc.fontSize(12).text("Step 4: Verify Your Identity", { bold: true });
-    doc.fontSize(11).text("• You may need to upload a photo of your passport");
+    doc.font('Helvetica-Bold').fontSize(12).text("Step 4: Verify Your Identity");
+    doc.font('Helvetica').fontSize(11).text("• You may need to upload a photo of your passport");
     doc.fontSize(11).text("• Complete the identity verification process");
     doc.moveDown();
 
     // WeChat Pay Section
     doc.fontSize(16).text("Setting Up WeChat Pay", { underline: true });
     doc.moveDown(0.5);
-    doc.fontSize(12).text("Step 1: Download WeChat", { bold: true });
-    doc.fontSize(11).text("• Download WeChat from your app store");
+    doc.font('Helvetica-Bold').fontSize(12).text("Step 1: Download WeChat");
+    doc.font('Helvetica').fontSize(11).text("• Download WeChat from your app store");
     doc.fontSize(11).text("• Create a WeChat account if you don't have one");
     doc.moveDown(0.5);
 
-    doc.fontSize(12).text("Step 2: Access WeChat Pay", { bold: true });
-    doc.fontSize(11).text("• Open WeChat and tap 'Me'");
+    doc.font('Helvetica-Bold').fontSize(12).text("Step 2: Access WeChat Pay");
+    doc.font('Helvetica').fontSize(11).text("• Open WeChat and tap 'Me'");
     doc.fontSize(11).text("• Tap 'Services' > 'Wallet'");
     doc.moveDown(0.5);
 
-    doc.fontSize(12).text("Step 3: Add Your Card", { bold: true });
-    doc.fontSize(11).text("• Tap 'Add Card' in the Wallet section");
+    doc.font('Helvetica-Bold').fontSize(12).text("Step 3: Add Your Card");
+    doc.font('Helvetica').fontSize(11).text("• Tap 'Add Card' in the Wallet section");
     doc.fontSize(11).text("• Enter your card information");
     doc.fontSize(11).text("• Verify your identity if prompted");
     doc.moveDown(0.5);
 
-    doc.fontSize(12).text("Step 4: Set Up Payment Password", { bold: true });
-    doc.fontSize(11).text("• Create a 6-digit payment password");
+    doc.font('Helvetica-Bold').fontSize(12).text("Step 4: Set Up Payment Password");
+    doc.font('Helvetica').fontSize(11).text("• Create a 6-digit payment password");
     doc.fontSize(11).text("• This password is required for each transaction");
     doc.moveDown();
 
@@ -129,21 +129,21 @@ async function generateCityGuidePDF(): Promise<Buffer> {
     // Beijing Section
     doc.fontSize(16).text("Beijing - The Capital City", { underline: true });
     doc.moveDown(0.5);
-    doc.fontSize(12).text("Top Attractions:", { bold: true });
-    doc.fontSize(11).text("• Forbidden City - Imperial palace complex");
+    doc.font('Helvetica-Bold').fontSize(12).text("Top Attractions:");
+    doc.font('Helvetica').fontSize(11).text("• Forbidden City - Imperial palace complex");
     doc.fontSize(11).text("• Great Wall of China - Must-see historical wonder");
     doc.fontSize(11).text("• Temple of Heaven - Ancient religious complex");
     doc.fontSize(11).text("• Summer Palace - Beautiful imperial garden");
     doc.moveDown(0.5);
 
-    doc.fontSize(12).text("Food Recommendations:", { bold: true });
-    doc.fontSize(11).text("• Peking Duck - Beijing's signature dish");
+    doc.font('Helvetica-Bold').fontSize(12).text("Food Recommendations:");
+    doc.font('Helvetica').fontSize(11).text("• Peking Duck - Beijing's signature dish");
     doc.fontSize(11).text("• Beijing Noodles (Zhajiangmian)");
     doc.fontSize(11).text("• Hot Pot - Popular dining experience");
     doc.moveDown(0.5);
 
-    doc.fontSize(12).text("Transportation:", { bold: true });
-    doc.fontSize(11).text("• Subway system is extensive and easy to use");
+    doc.font('Helvetica-Bold').fontSize(12).text("Transportation:");
+    doc.font('Helvetica').fontSize(11).text("• Subway system is extensive and easy to use");
     doc.fontSize(11).text("• Taxis and ride-sharing apps available");
     doc.fontSize(11).text("• Download Beijing Subway app for navigation");
     doc.moveDown();
@@ -151,21 +151,21 @@ async function generateCityGuidePDF(): Promise<Buffer> {
     // Shanghai Section
     doc.fontSize(16).text("Shanghai - The Modern Metropolis", { underline: true });
     doc.moveDown(0.5);
-    doc.fontSize(12).text("Top Attractions:", { bold: true });
-    doc.fontSize(11).text("• The Bund - Iconic waterfront area");
+    doc.font('Helvetica-Bold').fontSize(12).text("Top Attractions:");
+    doc.font('Helvetica').fontSize(11).text("• The Bund - Iconic waterfront area");
     doc.fontSize(11).text("• Yu Garden - Traditional Chinese garden");
     doc.fontSize(11).text("• Shanghai Tower - One of the world's tallest buildings");
     doc.fontSize(11).text("• French Concession - Historic neighborhood");
     doc.moveDown(0.5);
 
-    doc.fontSize(12).text("Food Recommendations:", { bold: true });
-    doc.fontSize(11).text("• Xiaolongbao (Soup Dumplings)");
+    doc.font('Helvetica-Bold').fontSize(12).text("Food Recommendations:");
+    doc.font('Helvetica').fontSize(11).text("• Xiaolongbao (Soup Dumplings)");
     doc.fontSize(11).text("• Shanghai-style noodles");
     doc.fontSize(11).text("• Fresh seafood");
     doc.moveDown(0.5);
 
-    doc.fontSize(12).text("Transportation:", { bold: true });
-    doc.fontSize(11).text("• Excellent metro system");
+    doc.font('Helvetica-Bold').fontSize(12).text("Transportation:");
+    doc.font('Helvetica').fontSize(11).text("• Excellent metro system");
     doc.fontSize(11).text("• Maglev train to Pudong Airport");
     doc.fontSize(11).text("• Buses and taxis widely available");
     doc.moveDown();
@@ -173,14 +173,14 @@ async function generateCityGuidePDF(): Promise<Buffer> {
     // Xi'an Section
     doc.fontSize(16).text("Xi'an - Ancient Capital", { underline: true });
     doc.moveDown(0.5);
-    doc.fontSize(12).text("Top Attractions:", { bold: true });
-    doc.fontSize(11).text("• Terracotta Warriors - UNESCO World Heritage");
+    doc.font('Helvetica-Bold').fontSize(12).text("Top Attractions:");
+    doc.font('Helvetica').fontSize(11).text("• Terracotta Warriors - UNESCO World Heritage");
     doc.fontSize(11).text("• City Wall - Ancient fortification");
     doc.fontSize(11).text("• Big Wild Goose Pagoda");
     doc.moveDown(0.5);
 
-    doc.fontSize(12).text("Food Recommendations:", { bold: true });
-    doc.fontSize(11).text("• Roujiamo (Chinese hamburger)");
+    doc.font('Helvetica-Bold').fontSize(12).text("Food Recommendations:");
+    doc.font('Helvetica').fontSize(11).text("• Roujiamo (Chinese hamburger)");
     doc.fontSize(11).text("• Biangbiang noodles");
     doc.fontSize(11).text("• Yangrou Paomo (Mutton soup)");
     doc.moveDown();
