@@ -5,26 +5,11 @@ import { NextRequest, NextResponse } from "next/server";
 const intlMiddleware = createMiddleware(routing);
 
 export default function middleware(request: NextRequest) {
-  // Skip middleware for API routes, static files, and Next.js internals
-  const pathname = request.nextUrl.pathname;
-  
-  if (
-    pathname.startsWith("/api") ||
-    pathname.startsWith("/_next") ||
-    pathname.startsWith("/_vercel") ||
-    pathname.includes(".")
-  ) {
-    return NextResponse.next();
-  }
-
   try {
     return intlMiddleware(request);
   } catch (error) {
     console.error("Middleware error:", error);
-    // Fallback: redirect to default locale
-    const url = request.nextUrl.clone();
-    url.pathname = `/en${pathname}`;
-    return NextResponse.redirect(url);
+    return NextResponse.next();
   }
 }
 
