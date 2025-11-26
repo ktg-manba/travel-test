@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Card } from "@/components/ui/card";
 import { toast } from "sonner";
-import { useUser } from "@/contexts/app";
+import { useAppContext } from "@/contexts/app";
 import { useChat } from "ai/react";
 
 interface ChatMessage {
@@ -16,7 +16,7 @@ interface ChatMessage {
 
 export default function TravelTangChatbot() {
   const t = useTranslations("traveltang.features.chatbot");
-  const { user } = useUser();
+  const { user } = useAppContext();
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   const { messages, input, handleInputChange, handleSubmit, isLoading, error } = useChat({

@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { toast } from "sonner";
-import { useUser } from "@/contexts/app";
+import { useAppContext } from "@/contexts/app";
 import { Download, FileText } from "lucide-react";
 
 type PDFType = "payment_guide" | "city_guide";
@@ -16,7 +16,7 @@ interface PDFDownloadProps {
 
 export default function PDFDownload({ type }: PDFDownloadProps) {
   const t = useTranslations("traveltang.features.pdf_guides");
-  const { user } = useUser();
+  const { user } = useAppContext();
   const [isDownloading, setIsDownloading] = useState(false);
 
   const getTitle = () => {
