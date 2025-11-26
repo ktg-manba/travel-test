@@ -14,9 +14,4 @@ export const localePrefix = "as-needed";
 // Default to false for Edge runtime compatibility
 export const localeDetection = false;
 
-export const pathnames = {
-  en: {
-    "privacy-policy": "/privacy-policy",
-    "terms-of-service": "/terms-of-service",
-  },
-} satisfies Pathnames<typeof locales>;
+export const pathnames = {} satisfies Pathnames<typeof locales>;
