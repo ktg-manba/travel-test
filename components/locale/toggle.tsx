@@ -9,11 +9,11 @@ import {
 import { useParams, usePathname, useRouter } from "next/navigation";
 
 import { MdLanguage } from "react-icons/md";
-import { localeNames } from "@/i18n/locale";
+import { localeNames, locales } from "@/i18n/locale";
 
 export default function ({ isIcon = false }: { isIcon?: boolean }) {
   const params = useParams();
-  const locale = params.locale as string;
+  const locale = params.locale as (typeof locales)[number];
   const router = useRouter();
   const pathname = usePathname();
 
@@ -36,7 +36,7 @@ export default function ({ isIcon = false }: { isIcon?: boolean }) {
         )}
       </SelectTrigger>
       <SelectContent className="z-50">
-        {Object.keys(localeNames).map((key: string) => {
+        {locales.map((key) => {
           const name = localeNames[key];
           return (
             <SelectItem className="cursor-pointer" key={key} value={key}>

@@ -38,6 +38,7 @@ const configWithMDX = {
   ...nextConfig,
   experimental: {
     mdxRs: true,
+    nodeMiddleware: true,
   },
 };
 

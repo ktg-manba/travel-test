@@ -68,7 +68,7 @@ export default async function ({
         name: "locale",
         title: "Locale",
         type: "select",
-        options: locales.map((locale: string) => ({
+        options: locales.map((locale) => ({
           title: localeNames[locale],
           value: locale,
         })),
